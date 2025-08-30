@@ -4,7 +4,6 @@ import 'package:booklyapp/core/utils/assets.dart';
 import 'package:booklyapp/core/utils/style.dart';
 import 'package:booklyapp/features/home/presentation/views/widgets/rating_book.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 
 class BestSillerIteam extends StatelessWidget {

@@ -8,6 +8,7 @@ class RatingBook extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(FontAwesomeIcons.solidStar, color: Colors.amber),
         SizedBox(width: 6.3),
