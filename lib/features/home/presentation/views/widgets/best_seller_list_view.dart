@@ -1,5 +1,3 @@
-
-
 import 'package:booklyapp/features/home/presentation/views/widgets/best_seller_scroll_view_iteam.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +9,7 @@ class BestSellerListView extends StatelessWidget {
     return ListView.builder(
       padding: EdgeInsets.zero,
       // shrinkWrap: true,
-      itemCount: 10,
+      itemCount: 20,
       physics: NeverScrollableScrollPhysics(),
       itemBuilder: (context, index) {
         return Padding(
