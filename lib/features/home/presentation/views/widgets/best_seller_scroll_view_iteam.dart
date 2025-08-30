@@ -2,6 +2,7 @@ import 'package:booklyapp/constants.dart';
 import 'package:booklyapp/core/utils/app_router.dart';
 import 'package:booklyapp/core/utils/assets.dart';
 import 'package:booklyapp/core/utils/style.dart';
+import 'package:booklyapp/features/home/presentation/views/widgets/rating_book.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -63,21 +64,7 @@ class BestSillerIteam extends StatelessWidget {
                           ),
                         ),
                         Spacer(),
-                        Icon(FontAwesomeIcons.solidStar, color: Colors.amber),
-                        SizedBox(width: 6.3),
-                        Text(
-                          '4.8',
-                          style: Style.textStyle16.copyWith(
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        SizedBox(width: 5),
-                        Text(
-                          '(2390)',
-                          style: Style.textStyle14.copyWith(
-                            color: Colors.white54,
-                          ),
-                        ),
+                        RatingBook(),
                       ],
                     ),
                   ],
