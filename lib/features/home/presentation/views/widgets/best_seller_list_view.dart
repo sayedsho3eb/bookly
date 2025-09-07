@@ -1,8 +1,8 @@
 import 'package:booklyapp/features/home/presentation/views/widgets/best_seller_scroll_view_iteam.dart';
 import 'package:flutter/material.dart';
 
-class BestSellerListView extends StatelessWidget {
-  const BestSellerListView({super.key});
+class DesignBooks extends StatelessWidget {
+  const DesignBooks({super.key});
 
   @override
   Widget build(BuildContext context) {
