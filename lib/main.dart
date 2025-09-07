@@ -1,16 +1,15 @@
 import 'package:booklyapp/constants.dart';
-import 'package:booklyapp/core/utils/api_server.dart';
 import 'package:booklyapp/core/utils/app_router.dart';
 import 'package:booklyapp/core/utils/service_locator.dart';
 import 'package:booklyapp/features/home/data/repo/home_repo_impl.dart';
 import 'package:booklyapp/features/home/presentation/manager/design_books_cubit/design_books_cubit.dart';
 import 'package:booklyapp/features/home/presentation/manager/featured_books_cubit/featured_books_cubit.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+  setupServiceLocator();
   runApp(const BooklyApp());
 }
 
